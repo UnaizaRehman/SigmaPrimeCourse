@@ -1,0 +1,37 @@
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: azure;
+    border: 5px black;
+    border-radius: 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box{
+height: 100px;
+width: 100px;
+background-color: grey;
+border: 2px black solid;
+border-radius: 5px;
+text-align: center;
+}
+#q2outer{
+    height: 50px;
+    width: 900px;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    background-color: pink;
+    border: 5px solid seagreen;
+    border-radius: 5px;
+    justify-content: flex-start;
+}
+.q2inner{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 24px;
+}

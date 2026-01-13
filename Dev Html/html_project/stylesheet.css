@@ -1,0 +1,153 @@
+#logo{
+    width: 25px;
+    height: 25px;
+}
+#dash .nav-link { color: white; }
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#btn .login {
+    border: 50px;
+}
+body {
+  background-color: black;
+}
+#nav {
+  height: 100px;
+  background-color: black;
+}
+
+.spotify-search{
+  display:flex;
+  align-items:center;
+  background:#1e1e1e;
+  padding:10px 16px;
+  border-radius:30px;
+  width:320px;
+  gap:10px;
+}
+.spotify-search input{
+  border:none;
+  outline:none;
+  background:transparent;
+  color:white;
+  width:100%;
+}
+.spotify-search input::placeholder{
+  color:#b3b3b3;
+}
+#spotify-search{
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: white;
+}
+.fa-solid{
+    background-color: white;
+    font-size: 18px;
+}
+#login {
+  border-radius: 50px;
+  padding: 6px 16px;
+}
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  background: #000;
+  color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4px;
+}
+
+.sidebar-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  color: #b3b3b3;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: white;
+}
+
+.sidebar-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.sidebar-card h4 {
+  font-size: 16px;
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+
+.sidebar-card p {
+  margin: 0 0 14px;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.pill-btn {
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 12px;
+}
+
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+
+.language-btn {
+  margin-top: 16px;
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+
